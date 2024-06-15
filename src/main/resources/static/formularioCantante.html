@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Califica a los Cantantes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="index.html">Home</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="audioCanciones.html">Canciones</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="albumesCantantes.html">Albumes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="videosCantantes.html">Video</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="formularioCantante.html">Su Cantante Favorito</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-lik nav-link" href="disquerasCantantes.html">Disqueras</a></li>
+                </ul>   
+            </nav> <!<!-- barra de navegacion -->
+
+        </header>
+        <aside class="aside">
+            <h2 class="formulario">Cantante Favorito</h2>
+            <p>Selecciones un cantante, e ingrese su cancion favorita</p>
+        </aside>
+        <section class="section">
+            <article>
+                <h2><strong>Rellene el Siguiente Formulario</strong></h2>
+                <form action="#">
+                    <table border="2">
+
+                        <tbody>
+                            <tr> <!<!-- filas -->
+                                <td>Nombre Completo</td><!<!-- contiene la informacion del usuario -->
+                                <td><input type="text" name="nombre" placeholder="Ingrese su Nombre" size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td>Seleccione el Cantante</td>
+                                <td><select name="nivel">
+                                        <option value="0">Bad Bunny</option>
+                                        <option value="1">Feid</option>
+                                        <option value="2">Mora</option>
+                                        <option value="3">Eladio Carrion</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>Cancion Favorita</td>
+                                <td><input type="text" name="cancionFavorita" placeholder="Ingrese su cancion favorita" size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Enviar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer class="footer">
+            <p>Hecho por Jorge Alfaro Guillen</p>
+        </footer>
+    </body>
+</html>
